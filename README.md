@@ -173,7 +173,7 @@ ggplot(Harmful_Events, aes(x=reorder(EVTYPE, -value), y=value)) +
     theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](figure/health results-1.png)<!-- -->
+![](figure/healthResults-1.png)<!-- -->
   
 > According to the analysis, **Tornado** is the natural disaster which causes most harm to the US population. It is the most fatalities and injuries causing event.
 
